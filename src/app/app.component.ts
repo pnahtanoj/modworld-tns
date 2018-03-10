@@ -25,5 +25,7 @@ export class AppComponent {
     constructor(translate: TranslateService) {
         translate.setDefaultLang('en');
         translate.use('en');
+
+        console.dir(this.menuItems[0]);
     }
 }
